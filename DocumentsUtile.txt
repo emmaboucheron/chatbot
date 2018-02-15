@@ -1,0 +1,3 @@
+Calcul du TF-IDF en python (exemple)
+
+http://scikit-learn.org/stable/modules/feature_extraction.html
