@@ -1,0 +1,58 @@
+A faire pour le 13/02 :
+- Comprendre callepin C-discount, reformuler/dire avec nos mos les notions complexe (hashage TF IDF)
+- Exploration de base sur les données pour les comprendre
+- Utiliser wordcloud
+
+A faire
+
+- comprendre tf idf (ok)
+- Exploration sur les donnees chatbot
+- 3 matrices des poids a faire, compter par ligne, compter par doc, tf-idf
+- Vectoriser, acp (sur matrice des poids)
+- Mettre nom sur barplot
+- afficher et decomposer fonction clean
+- faire les mots par classes
+
+13/03
+-méthode re enchantillonage upsampling ou downsampling ou mélange des deux en étudiant nombre données optimales/ regrouper categories?
+- colorier par categorie dans acp
+- revoir la fonction vectorisation, comment elle decoupe
+- interpreter
+- ifidf IMPERATIF POUR ORAL
+-regression logistique
+-(apprentissage)
+
+
+Pour l'article
+-> papier tfidf, papier Cdiscount
+-> parler de l'exploration dans exploitation des resultats
+
+recall, precision, accuracy F1 score courbe roc, calcul de scores sur différentes catégories et pourcentages de bons et mauvais et nombre de fois ok
+AUC bien quand score (=aire sous la courbe) grand
+Accuracy = regarde les elements que l'on a bien mit en positif (tp / (tp + fp) )
+recall = (tp / (tp + fn) )
+
+jouer avec les stop words
+expliquer les coeff obtenu (mot discriminant gros score)
+
+
+20/03
+-wordcloud avec tf idf
+-wordcloud sur meta categories
+-choper sur l'acp les variables qui sont genre >0.2 sur un axe pour spam/nonspam
+-rediger conclusion explo
+-prediction avec regression logistique, au debut laisser c=1, et apres jouer dessus, faire un ovr, l2
+
+-faire wordcloud avant et après nettoyage pour comparer
+-tf idf avec ou sans bigram
+
+20/03
+- reprendre les points non fait
+- faire wordcloud apres tfidf ?
+- faire acp avec des plans differents pour essayer de voir des siscriminations
+- rendre plus propre les calepins & les commenter
+
+10/04
+- faire l'apprentissage sur les meta classes
+- faire echantillonages
+- comprendre comment il a appris
